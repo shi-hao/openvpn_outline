@@ -30,4 +30,17 @@ ip1和ip2分别是分配给client的虚拟设备的ip地址，如果是client是
 
 
 ## 2.client访问server端子网
+(1)push server端子网到client 
+在server配置文件中增加如下配置
+**push "route  ip  mask"**
+此语句的含义是，当client连接上server后，server推送路由配置给client。
+
+(2)开启server端ip转发功能
+打开/etc/sysctl.conf，打开注释，net.ipv4.ip_forward=1
+运行如下指令，使配置生效。
+sudo /sbin/sysctl -p
+此操作的目的是，当server收到数据包后，将数据包转发出去。
+
+(3)server端子网设备增加静态路由
+
 
