@@ -1,4 +1,6 @@
-# 1.client分配固定ip    
+# OpenVPN Practical Configuration  
+
+## client分配固定ip    
 根据client证书的名称，server给其分配固定的IP地址    
   
 (1)创建client目录  
@@ -29,7 +31,12 @@ ip1和ip2分别是分配给client的虚拟设备的ip地址，如果是client是
 的ip  
 
 
-## 2.client访问server端子网
+## client之间互联互通
+
+
+
+## client和server所在子网互联互通
+### client访问server端子网
 (1)push server端子网到client 
 在server配置文件中增加如下配置
 **push "route  ip  mask"**
