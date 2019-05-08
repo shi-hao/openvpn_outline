@@ -1,4 +1,6 @@
 /*
+ * copy from OpenVPN web
+ *
  * OpenVPN Protocol, taken from ssl.h in OpenVPN source code.
  *
  * TCP/UDP Packet:  This represents the top-level encapsulation.
