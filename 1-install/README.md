@@ -50,7 +50,7 @@ sudo apt-get install build-essential autoconf pkg-config
 sudo apt-get install liblzo2-dev libtool  libpam0g-dev libsystemd-dev  
 OpenVPN同时依赖OpenSSL的2个动态库libssl和libcrypto，所以OpenSSL必须要正确安装。  
 
-**aureconf -vif**   
+**autoreconf -vif**   
 生成配置文件。  
 **./configure --prefix=/usr**  
 配置源码  
