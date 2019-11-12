@@ -31,3 +31,6 @@ ssh使用了OpenSSL，apt则使用了ssh的openssh-server，算是连锁问题�
 问题解决。    
   
   
+2.Ubuntu下多个版本的OpenSSL如何共存？
+
+
