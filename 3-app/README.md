@@ -49,5 +49,3 @@ sudo /sbin/sysctl -p
 此操作的目的是，当server收到数据包后，将数据包转发出去。
 
 (3)server端子网设备增加静态路由
-
-
